@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header {
+    background-image: url('../img/bgHeader.jpg');
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 505px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+header .title {
+    text-align: center;
+    font-size: 44px;
+    margin-bottom: 5px;
+}
+
+header .sub {
+    display: block;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header .button {
+    margin: auto;
+    display: block;
+    font-weight: 500;
+    font-size: 8px;
+    padding: 10px 25px;
+    border-radius: 2px;
+    border-color: transparent;
+    background-color: rgb(61, 95, 230);
+    color: rgb(255, 255, 255);
+}
+
+#sectionFirst {
+    height: 255px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#sectionFirst .title {
+    font-weight: 700;
+    padding-top: 70px;
+}
+
+#sectionFirst .sub {
+    font-size: 10px;
+    padding-top: 8px;
+}
+
+#sectionFirst .button {
+    margin: auto;
+    display: block;
+    font-weight: 500;
+    font-size: 8px;
+    padding: 10px 25px;
+    border-radius: 2px;
+    border-color: transparent;
+    background-color: rgb(52, 58, 64);
+    color: rgb(255, 255, 255);
+    margin-top: 30px;
+}
+
+#sectionSecond {
+    background-color: rgb(44, 81, 255);
+}
+
+#sectionSecond .title {}
