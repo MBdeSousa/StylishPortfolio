@@ -1,0 +1,28 @@
+#sectionThird {
+    background-image: url('../img/bgSectionThird.jpg');
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 505px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#sectionThird .title {
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+    padding: 0 15px 30px;
+}
+
+#sectionThird .button {
+    font-weight: 500;
+    font-size: 8px;
+    padding: 10px 25px;
+    border-radius: 2px;
+    border-color: transparent;
+    background-color: rgb(61, 95, 230);
+    color: rgb(255, 255, 255);
+}

@@ -1,0 +1,31 @@
+footer {
+    padding: 60px 0;
+    text-align: center;
+}
+
+footer img {
+    height: 20px;
+    width: 20px;
+}
+
+footer .imgGrid {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto 20px;
+    width: 180px;
+    justify-content: space-evenly;
+}
+
+footer .img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(44, 81, 255);
+    border-radius: 50%;
+    height: 36px;
+    width: 36px;
+}
+
+footer .copyright {
+    font-size: 10px;
+}

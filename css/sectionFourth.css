@@ -1,0 +1,67 @@
+#sectionFourth .container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: none;
+    width: 800px;
+    padding-bottom: 100px;
+}
+
+#sectionFourth .title {
+    color: #E6AC03;
+    font-size: 10px;
+    padding: 0;
+    font-weight: 700;
+    padding-top: 70px;
+    display: flex;
+    justify-content: center;
+}
+
+#sectionFourth .sub {
+    font-weight: 700;
+    font-size: 24px;
+    padding-bottom: 30px;
+}
+
+#sectionFourth .itemFirst,
+.itemSecond,
+.itemThird,
+.itemFourth {
+    height: 250px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    background-size: cover;
+}
+
+#sectionFourth .itemTitle {
+    font-size: 10px;
+    font-weight: 700;
+    padding: 170px 30px 0;
+}
+
+#sectionFourth .itemSub {
+    padding: 5px 30px 40px;
+}
+
+#sectionFourth .itemTitle,
+.itemSub {
+    color: #fff;
+    display: flex;
+}
+
+#sectionFourth .itemFirst {
+    background-image: url('../img/portfolio-1.jpg');
+}
+
+#sectionFourth .itemSecond {
+    background-image: url('../img/portfolio-2.jpg');
+}
+
+#sectionFourth .itemThird {
+    background-image: url('../img/portfolio-3.jpg');
+}
+
+#sectionFourth .itemFourth {
+    background-image: url('../img/portfolio-4.jpg');
+}

@@ -1,0 +1,85 @@
+@media only screen and (max-width: 768px) {
+    #sectionSecond .grid>div {
+        width: 50vw;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    #sectionSecond .grid>div {
+        width: 100vw;
+    }
+}
+
+#sectionSecond {
+    background-color: rgb(44, 81, 255);
+    color: #fff;
+    width: 100%;
+    padding: 100px 0;
+}
+
+.container .title,
+.sub {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container>.title {
+    color: #E6AC03;
+    font-size: 10px;
+    padding: 0;
+    font-weight: 700;
+    padding-top: 20px;
+}
+
+.container>.sub {
+    font-weight: 700;
+    font-size: 24px;
+    padding-bottom: 30px;
+}
+
+.item>.title {
+    font-size: 16px;
+    padding: 10px;
+    font-weight: 800;
+}
+
+.item>.sub {
+    font-size: 10px;
+    margin-bottom: 20px;
+}
+
+#sectionSecond .grid {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#sectionSecond .grid>div {
+    width: 25vw;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#sectionSecond .itemBg {
+    background-color: #fff;
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+    content: '';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#sectionSecond img {
+    height: 24px;
+}
+
+.container {
+    max-width: 700px;
+    margin: 0 auto;
+}

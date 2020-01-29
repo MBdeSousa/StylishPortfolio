@@ -1,0 +1,31 @@
+#sectionFirst {
+    height: 255px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+#sectionFirst .title {
+    font-weight: 700;
+    padding: 70px 15px 0;
+}
+
+#sectionFirst .sub {
+    font-size: 10px;
+    padding: 8px 15px 0;
+}
+
+#sectionFirst .button {
+    margin: auto;
+    display: block;
+    font-weight: 500;
+    font-size: 8px;
+    padding: 10px 25px;
+    border-radius: 2px;
+    border-color: transparent;
+    background-color: rgb(52, 58, 64);
+    color: rgb(255, 255, 255);
+    margin-top: 30px;
+}
